@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    color: #fff;
+    background-color:#54546B;
+}
+
+header{
+    background-color: #3F3F84;
+    width: 100vw;
+    margin: 0;
+    margin-bottom: 15px;
+    padding:50px;
+    text-align: center;
+}
+
+.pelicula{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: 50px;
+}
+
+.pelicula img{
+    height: 500px;
+}
+
+.pelicula a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.pelicula a:hover{
+    color:#ebebeb;
+}
